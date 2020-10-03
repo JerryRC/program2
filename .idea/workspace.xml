@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="356c46f8-c689-48db-a68e-2492bcd493d6" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:\Program Files\JetBrains\IntelliJ IDEA Educational Edition 2020.2.1\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1iLmErgUj26O03RgxbFLczA31oX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\JRChan\source\repos\Java\program2" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="HttpServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.HttpServer" />
+      <module name="program2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HttpServer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="356c46f8-c689-48db-a68e-2492bcd493d6" name="Default Changelist" comment="" />
+      <created>1601695139637</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601695139637</updated>
+    </task>
+    <task id="LOCAL-00001" summary="git ignore">
+      <created>1601698241439</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601698241439</updated>
+    </task>
+    <task id="LOCAL-00002" summary="git ignore">
+      <created>1601698393189</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601698393189</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ignore">
+      <created>1601698611098</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601698611098</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update">
+      <created>1601699160916</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601699160916</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="git ignore" />
+    <MESSAGE value="ignore" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1060" y="269" key="FileChooserDialogImpl" timestamp="1601698071566">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1060" y="269" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1601698071566" />
+    <state x="1091" y="429" key="Github.CreateGistDialog" timestamp="1601697708826">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1091" y="429" key="Github.CreateGistDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1601697708826" />
+    <state x="1094" y="419" width="401" height="206" key="Github.ShareDialog" timestamp="1601698797040">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1094" y="419" width="401" height="206" key="Github.ShareDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1601698797040" />
+    <state x="1030" y="222" key="Github.UntrackedFilesDialog" timestamp="1601698831557">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1030" y="222" key="Github.UntrackedFilesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1601698831557" />
+    <state width="1234" height="281" key="GridCell.Tab.0.bottom" timestamp="1601698677337">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1234" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1601698677337" />
+    <state width="1234" height="281" key="GridCell.Tab.0.center" timestamp="1601698677337">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1234" height="281" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1601698677337" />
+    <state width="1234" height="281" key="GridCell.Tab.0.left" timestamp="1601698677337">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1234" height="281" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1601698677337" />
+    <state width="1234" height="281" key="GridCell.Tab.0.right" timestamp="1601698677337">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1234" height="281" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1601698677337" />
+    <state x="781" y="169" key="SettingsEditor" timestamp="1601698752397">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="781" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1601698752397" />
+    <state x="872" y="257" key="Vcs.Push.Dialog.v2" timestamp="1601698673627">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="872" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1601698673627" />
+    <state x="1084" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601698889936">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1084" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050@0.0.1920.1050" timestamp="1601698889936" />
+    <state x="139" y="234" key="new project wizard" timestamp="1601695201607">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="139" y="234" key="new project wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1601695201607" />
+    <state x="943" y="233" width="672" height="678" key="search.everywhere.popup" timestamp="1601698770917">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="943" y="233" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1601698770917" />
+  </component>
+</project>
