@@ -1,8 +1,6 @@
 package com.java;
 
-import java.io.BufferedInputStream;
-import java.io.BufferedOutputStream;
-import java.io.File;
+import java.io.*;
 import java.net.Socket;
 import java.nio.charset.StandardCharsets;
 import java.util.StringTokenizer;
@@ -11,19 +9,14 @@ import java.util.StringTokenizer;
 public class HttpClient {
 
     private static final int buffer_size = 8192;
-
     private byte[] buffer;
 
-    Socket socket = null;
-
     private static final int PORT = 80;
-
+    private Socket socket = null;
     BufferedOutputStream OStream = null;
-
     BufferedInputStream IStream = null;
 
     private final StringBuffer header;
-
     private final StringBuffer response;
 
     static private final String CRLF = "\r\n";
@@ -42,9 +35,7 @@ public class HttpClient {
     public void connect(String host) throws Exception {
 
         socket = new Socket(host, PORT);
-
         OStream = new BufferedOutputStream(socket.getOutputStream());
-
         IStream = new BufferedInputStream(socket.getInputStream());
     }
 
@@ -53,6 +44,8 @@ public class HttpClient {
         buffer = request.getBytes();
         OStream.write(buffer, 0, request.length());
         OStream.flush();
+        //清空缓存
+        buffer = new byte[buffer_size];
         processResponse();
     }
 
@@ -73,20 +66,19 @@ public class HttpClient {
         }
 
         request += CRLF;
-        request += "Content-Length:" + file.length();
+        request += "Content-Length: " + file.length();
         request += CRLF + CRLF;
-        System.out.println(request);
         buffer = request.getBytes();
         OStream.write(buffer, 0, request.length());
         OStream.flush();
-
+        System.out.println(file.length());
+        //清空缓存
+        buffer = new byte[buffer_size];
         processResponse();
         //=======end of your job============//
     }
 
     public void processResponse() throws Exception {
-//        header.delete(0, header.length());
-//        response.delete(0, response.length());
         int last = 0, c;
         boolean inHeader = true; // loop control
         while (inHeader && ((c = IStream.read()) != -1)) {
@@ -107,8 +99,11 @@ public class HttpClient {
             }
         }
 
-        while (IStream.read(buffer) != -1) {
-            response.append(new String(buffer, StandardCharsets.ISO_8859_1));
+        int size;
+        while ((size = IStream.read(buffer)) != -1) {
+            response.append(new String(buffer, 0, size, StandardCharsets.ISO_8859_1));
+            //清空缓存
+            buffer = new byte[buffer_size];
         }
     }
 

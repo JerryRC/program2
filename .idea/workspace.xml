@@ -11,9 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="356c46f8-c689-48db-a68e-2492bcd493d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/java/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java/HttpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/Handler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/HttpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/HttpClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/HttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/HttpServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +53,9 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/迅雷下载" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -62,11 +66,11 @@
       <recent name="C:\Users\JRChan\source\repos\Java\program2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.HttpServer">
+    <configuration name="Client" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.Client" />
       <module name="program2" />
-      <option name="PROGRAM_PARAMETERS" value="www.nwpu.edu.cn" />
+      <option name="PROGRAM_PARAMETERS" value="127.0.0.1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.java.*" />
@@ -80,6 +84,7 @@
     <configuration name="HttpServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.HttpServer" />
       <module name="program2" />
+      <option name="PROGRAM_PARAMETERS" value="D:\迅雷下载" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.java.*" />
@@ -90,6 +95,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.HttpServer" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Client" />
@@ -162,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601708903197</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="client">
+      <created>1602211751915</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1602211751915</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -194,14 +210,26 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="552" y="166" key="#Plugins/0.0.1920.1050@0.0.1920.1050" timestamp="1601992218746" />
+    <state x="414" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602382935994">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="414" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1602382935994" />
+    <state x="716" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602389301229">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="716" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1602389301229" />
+    <state x="740" y="229" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1602385054872">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="229" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1602385054872" />
     <state x="640" y="260" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1601991741087">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="640" y="260" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1601991741087" />
-    <state x="1060" y="269" key="FileChooserDialogImpl" timestamp="1601698071566">
+    <state x="1060" y="269" key="FileChooserDialogImpl" timestamp="1602212982072">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="1060" y="269" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1601698071566" />
+    <state x="1060" y="269" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1602212982072" />
     <state x="1091" y="429" key="Github.CreateGistDialog" timestamp="1601697708826">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -214,38 +242,42 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1030" y="222" key="Github.UntrackedFilesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1601698831557" />
-    <state width="914" height="351" key="GridCell.Tab.0.bottom" timestamp="1602210771536">
+    <state width="1877" height="301" key="GridCell.Tab.0.bottom" timestamp="1602414757432">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="914" height="351" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1602210771536" />
-    <state width="914" height="351" key="GridCell.Tab.0.center" timestamp="1602210771536">
+    <state width="1877" height="301" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1602414757432" />
+    <state width="1877" height="301" key="GridCell.Tab.0.center" timestamp="1602414757432">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="914" height="351" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1602210771536" />
-    <state width="914" height="351" key="GridCell.Tab.0.left" timestamp="1602210771536">
+    <state width="1877" height="301" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1602414757432" />
+    <state width="1877" height="301" key="GridCell.Tab.0.left" timestamp="1602414757432">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="914" height="351" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1602210771536" />
-    <state width="914" height="351" key="GridCell.Tab.0.right" timestamp="1602210771536">
+    <state width="1877" height="301" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1602414757432" />
+    <state width="1877" height="301" key="GridCell.Tab.0.right" timestamp="1602414757432">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="914" height="351" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1602210771536" />
-    <state width="914" height="351" key="GridCell.Tab.1.bottom" timestamp="1602210771536">
+    <state width="1877" height="301" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1602414757432" />
+    <state width="1877" height="351" key="GridCell.Tab.1.bottom" timestamp="1602385544982">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="914" height="351" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1602210771536" />
-    <state width="914" height="351" key="GridCell.Tab.1.center" timestamp="1602210771536">
+    <state width="1877" height="351" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1602385544982" />
+    <state width="1877" height="351" key="GridCell.Tab.1.center" timestamp="1602385544982">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="914" height="351" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1602210771536" />
-    <state width="914" height="351" key="GridCell.Tab.1.left" timestamp="1602210771536">
+    <state width="1877" height="351" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1602385544982" />
+    <state width="1877" height="351" key="GridCell.Tab.1.left" timestamp="1602385544982">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="914" height="351" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1602210771536" />
-    <state width="914" height="351" key="GridCell.Tab.1.right" timestamp="1602210771536">
+    <state width="1877" height="351" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1602385544982" />
+    <state width="1877" height="351" key="GridCell.Tab.1.right" timestamp="1602385544982">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="914" height="351" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1602210771536" />
+    <state width="1877" height="351" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1602385544982" />
+    <state x="1020" y="271" key="IDE.errors.dialog" timestamp="1602213166296">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1020" y="271" key="IDE.errors.dialog/0.0.1920.1050@0.0.1920.1050" timestamp="1602213166296" />
     <state x="163" y="199" key="SettingsEditor" timestamp="1601992280126">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -254,10 +286,14 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="872" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1601698673627" />
-    <state width="487" height="528" key="XDebugger.FullValuePopup" timestamp="1602209032323">
+    <state width="487" height="528" key="XDebugger.FullValuePopup" timestamp="1602385239702">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="487" height="528" key="XDebugger.FullValuePopup/0.0.1920.1050@0.0.1920.1050" timestamp="1602209032323" />
+    <state width="487" height="528" key="XDebugger.FullValuePopup/0.0.1920.1050@0.0.1920.1050" timestamp="1602385239702" />
+    <state x="351" y="127" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1602412495400">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="351" y="127" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1602412495400" />
     <state x="1084" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601698889936">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

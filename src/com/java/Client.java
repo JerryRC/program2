@@ -28,10 +28,9 @@ public class Client {
             screen.println(args[0] + " is listening to your request:");
             String request = keyboard.readLine();
 
-            if (request.startsWith("GET")) {
+            if (request.startsWith("GET ")) {
                 myClient.processGetRequest(request);
-
-            } else if (request.startsWith("PUT")) {
+            } else if (request.startsWith("PUT ")) {
                 myClient.processPutRequest(request);
             } else {
                 screen.println("Bad request! \n");
@@ -39,22 +38,23 @@ public class Client {
                 return;
             }
 
-            screen.println("Header: \n");
-            screen.print(myClient.getHeader() + "\n");
-            screen.flush();
+            screen.println("Header: ");
+            screen.println(myClient.getHeader());
 
             if (request.startsWith("GET")) {
-                screen.println();
                 screen.print("Enter the name of the file to save: ");
                 screen.flush();
                 String filename = keyboard.readLine();
                 FileOutputStream outfile = new FileOutputStream(filename);
 
                 String response = myClient.getResponse();
+                screen.print("Response: \n" + response);
+                screen.flush();
+
                 outfile.write(response.getBytes(StandardCharsets.ISO_8859_1));
                 outfile.flush();
                 outfile.close();
-            } else if(request.startsWith("PUT")) {
+            } else if (request.startsWith("PUT")) {
                 screen.println(myClient.getResponse());
             }
 
