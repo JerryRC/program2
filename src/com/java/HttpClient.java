@@ -74,6 +74,17 @@ public class HttpClient {
         System.out.println(file.length());
         //清空缓存
         buffer = new byte[buffer_size];
+
+        FileInputStream fis = new FileInputStream(file);
+        int size;
+        while((size = fis.read(buffer)) != -1) {
+            OStream.write(buffer, 0, size);
+            OStream.flush();
+            //刷新buffer
+            buffer = new byte[buffer_size];
+        }
+        fis.close();
+
         processResponse();
         //=======end of your job============//
     }

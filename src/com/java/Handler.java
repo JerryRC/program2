@@ -65,8 +65,8 @@ public class Handler implements Runnable {
         try {
             processResponse();
 
-            System.out.println("header: " + header.toString()); //输出头部
-            System.out.println("body: " + body.toString()); //输出消息体
+//            System.out.println("header: \n" + header.toString()); //输出头部
+//            System.out.println("body: \n" + body.toString()); //输出消息体
 
             StringTokenizer st = new StringTokenizer(header.toString(), " ");
             String command = st.nextToken();    //第一个分段为指令名
@@ -76,8 +76,10 @@ public class Handler implements Runnable {
             //GET请求
             if (command.equals("GET")) {
                 String filename = st.nextToken();   //第二个分段就是文件路径
+                String protocol = st.nextToken().trim();  //第三个分段是协议
+
                 //第三个分段若不是 HTTP/1.0 则 bad request
-                if (st.nextToken().trim().equals("HTTP/1.0")) {
+                if (protocol.contains("HTTP/1.0\n") || protocol.equals("HTTP/1.0")) {
                     //格式正确
                     BAD = false;
                     String result = getFile(filename, currentPath);
@@ -137,7 +139,9 @@ public class Handler implements Runnable {
             //PUT请求
             else if (command.equals("PUT")) {
                 String filename = st.nextToken();   //第二个分段就是文件路径
-                if (st.nextToken().trim().equals("HTTP/1.0")) {
+                String protocol = st.nextToken().trim();  //第三个分段是协议
+
+                if (protocol.contains("HTTP/1.0\n") || protocol.equals("HTTP/1.0")) {
                     //格式正确
                     BAD = false;
                     //取文件名
@@ -235,14 +239,12 @@ public class Handler implements Runnable {
 
             int times = (len + buffer_size - 1) / buffer_size;    //向上取整
 
-            for (int i = 0; i < times-1 && IStream.read(buffer) != -1; ++i) {
+            int size;
+            for (int i = 0; i < times && (size=IStream.read(buffer))!=-1; ++i) {
 
-                body.append(new String(buffer, StandardCharsets.ISO_8859_1));
+                body.append(new String(buffer, 0 , size, StandardCharsets.ISO_8859_1));
                 buffer = new byte[buffer_size];
             }
-            int size = IStream.read(buffer);
-            body.append(new String(buffer,0,size,StandardCharsets.ISO_8859_1));
-            buffer = new byte[buffer_size];
         }
     }
 

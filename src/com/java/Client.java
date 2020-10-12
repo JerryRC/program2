@@ -48,14 +48,15 @@ public class Client {
                 FileOutputStream outfile = new FileOutputStream(filename);
 
                 String response = myClient.getResponse();
-                screen.print("Response: \n" + response);
-                screen.flush();
-
                 outfile.write(response.getBytes(StandardCharsets.ISO_8859_1));
                 outfile.flush();
                 outfile.close();
+
+//                screen.print("Response: \n" + response);
+//                screen.flush();
             } else if (request.startsWith("PUT")) {
-                screen.println(myClient.getResponse());
+                screen.print("Response: \n" + myClient.getResponse());
+                screen.flush();
             }
 
             myClient.close();
