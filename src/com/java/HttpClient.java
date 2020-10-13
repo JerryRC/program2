@@ -71,7 +71,6 @@ public class HttpClient {
         buffer = request.getBytes();
         OStream.write(buffer, 0, request.length());
         OStream.flush();
-        System.out.println(file.length());
         //清空缓存
         buffer = new byte[buffer_size];
 

@@ -12,7 +12,7 @@
   <component name="ChangeListManager">
     <list default="true" id="356c46f8-c689-48db-a68e-2492bcd493d6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/Handler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/HttpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/HttpClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +66,7 @@
     <configuration name="Client" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.Client" />
       <module name="program2" />
-      <option name="PROGRAM_PARAMETERS" value="127.0.0.1" />
+      <option name="PROGRAM_PARAMETERS" value="www.nwpu.edu.cn" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.java.*" />
@@ -195,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602554058082</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="refactor">
+      <created>1602571153809</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1602571153809</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -223,7 +230,8 @@
     <MESSAGE value="multi thread" />
     <MESSAGE value="done" />
     <MESSAGE value="IMG embedded in html" />
-    <option name="LAST_COMMIT_MESSAGE" value="IMG embedded in html" />
+    <MESSAGE value="refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="166" key="#Plugins" timestamp="1601992218746">
@@ -262,22 +270,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1030" y="222" key="Github.UntrackedFilesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1601698831557" />
-    <state width="1877" height="283" key="GridCell.Tab.0.bottom" timestamp="1602569393417">
+    <state width="1877" height="283" key="GridCell.Tab.0.bottom" timestamp="1602572066628">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="283" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1602569393417" />
-    <state width="1877" height="283" key="GridCell.Tab.0.center" timestamp="1602569393417">
+    <state width="1877" height="283" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1602572066628" />
+    <state width="1877" height="283" key="GridCell.Tab.0.center" timestamp="1602572066628">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="283" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1602569393417" />
-    <state width="1877" height="283" key="GridCell.Tab.0.left" timestamp="1602569393417">
+    <state width="1877" height="283" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1602572066628" />
+    <state width="1877" height="283" key="GridCell.Tab.0.left" timestamp="1602572066628">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="283" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1602569393417" />
-    <state width="1877" height="283" key="GridCell.Tab.0.right" timestamp="1602569393417">
+    <state width="1877" height="283" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1602572066628" />
+    <state width="1877" height="283" key="GridCell.Tab.0.right" timestamp="1602572066628">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="283" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1602569393417" />
+    <state width="1877" height="283" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1602572066628" />
     <state width="1877" height="351" key="GridCell.Tab.1.bottom" timestamp="1602385544982">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
