@@ -3,6 +3,7 @@ package com.java;
 import java.io.*;
 import java.net.*;
 import java.nio.charset.StandardCharsets;
+import java.util.Base64;
 import java.util.StringTokenizer;
 
 /**
@@ -96,13 +97,12 @@ public class Handler implements Runnable {
                     }
                     //200 返回指定文件
                     else {
-                        //文件转换成 byte[] 输出
-                        File f = new File(result);
-                        FileInputStream fis = new FileInputStream(f);
+                        boolean check = false;  //是否要检查嵌入
 
                         String type = "application/octet-stream";
                         if (result.contains(".htm")) {
                             type = "text/html";
+                            check = true;
                         } else if (result.endsWith(".jpg") || result.endsWith(".jpeg")) {
                             type = "image/jpeg";
                         } else if (result.endsWith(".png")) {
@@ -113,6 +113,74 @@ public class Handler implements Runnable {
                             type = "text/plain";
                         }
 
+                        //处理 img 嵌入
+                        if (check) {
+                            //原文件装饰成流
+                            File f = new File(result);
+                            FileInputStream fis = new FileInputStream(f);
+                            BufferedReader fbr = new BufferedReader(new InputStreamReader(fis));
+
+                            //新建一个嵌入 img 的临时文件
+                            File tmp = new File(result + "_img");
+                            FileOutputStream fos = new FileOutputStream(tmp);
+
+                            String line;
+                            while ((line = fbr.readLine()) != null) {
+                                int startIMG;
+                                //有 img 标签，得到图片地址
+                                if ((startIMG = line.indexOf("<img")) != -1) {
+                                    int start = line.indexOf("src=", startIMG);
+                                    start = line.indexOf("\"", start);  //找到第一个 “
+                                    int end = line.indexOf(".jpg", start);  //找到结尾
+                                    String path = line.substring(start + 1, end + 4);   //这里定死了只能处理 .jpg 情况
+                                    File img = new File(currentPath+"/"+path);
+                                    //确实图片是否存在
+                                    if(img.isFile()){
+                                        //以二进制字节流读入图片
+                                        FileInputStream IMGin = new FileInputStream(img);
+                                        byte[] IMGdata = new byte[IMGin.available()];
+
+                                        System.out.println("img 数据大小: " + IMGin.read(IMGdata));
+                                        IMGin.close();
+
+                                        //Base64 编码
+                                        Base64.Encoder encoder = Base64.getEncoder();
+
+                                        String str = encoder.encodeToString(IMGdata).trim().
+                                                replaceAll("\n", "").
+                                                replaceAll("\r", "");
+
+                                        //现在只固定格式处理 base64 jpg 的内嵌
+                                        String newline = line.replace(path,"data:image/jpeg;base64," + str);
+                                        fos.write(newline.getBytes());
+                                    }
+                                    //找不到图片，不存在
+                                    else{
+                                        fos.write(line.getBytes());
+                                    }
+                                }
+                                //没有 img 标签直接写入
+                                else {
+                                    fos.write(line.getBytes());
+                                }
+                                fos.write("\r\n".getBytes());
+
+                                fos.flush();
+                            }
+                            fbr.close();
+                            fos.close();
+                        }
+
+                        //传输处理好的文件
+                        File f;
+                        if (check) {
+                            f = new File(result + "_img");
+                        } else {
+                            f = new File(result);
+                        }
+                        FileInputStream fis = new FileInputStream(f);
+
+                        //文件转换成 byte[] 输出
                         response = "HTTP/1.0 200 OK" + CRLF;
                         response += "Content-Length: " + f.length() + CRLF;
                         response += "Content-Type: " + type + CRLF;
@@ -240,9 +308,9 @@ public class Handler implements Runnable {
             int times = (len + buffer_size - 1) / buffer_size;    //向上取整
 
             int size;
-            for (int i = 0; i < times && (size=IStream.read(buffer))!=-1; ++i) {
+            for (int i = 0; i < times && (size = IStream.read(buffer)) != -1; ++i) {
 
-                body.append(new String(buffer, 0 , size, StandardCharsets.ISO_8859_1));
+                body.append(new String(buffer, 0, size, StandardCharsets.ISO_8859_1));
                 buffer = new byte[buffer_size];
             }
         }

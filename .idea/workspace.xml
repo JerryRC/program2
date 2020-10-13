@@ -12,9 +12,7 @@
   <component name="ChangeListManager">
     <list default="true" id="356c46f8-c689-48db-a68e-2492bcd493d6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/java/Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/Handler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/HttpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/HttpClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602415191969</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="done">
+      <created>1602490037544</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1602490037544</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -209,7 +214,8 @@
     <MESSAGE value="update workspace.xml" />
     <MESSAGE value="client" />
     <MESSAGE value="multi thread" />
-    <option name="LAST_COMMIT_MESSAGE" value="multi thread" />
+    <MESSAGE value="done" />
+    <option name="LAST_COMMIT_MESSAGE" value="done" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="166" key="#Plugins" timestamp="1601992218746">
@@ -248,22 +254,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1030" y="222" key="Github.UntrackedFilesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1601698831557" />
-    <state width="1877" height="303" key="GridCell.Tab.0.bottom" timestamp="1602474424219">
+    <state width="1877" height="283" key="GridCell.Tab.0.bottom" timestamp="1602553904221">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="303" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1602474424219" />
-    <state width="1877" height="303" key="GridCell.Tab.0.center" timestamp="1602474424219">
+    <state width="1877" height="283" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1602553904221" />
+    <state width="1877" height="283" key="GridCell.Tab.0.center" timestamp="1602553904221">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="303" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1602474424219" />
-    <state width="1877" height="303" key="GridCell.Tab.0.left" timestamp="1602474424219">
+    <state width="1877" height="283" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1602553904221" />
+    <state width="1877" height="283" key="GridCell.Tab.0.left" timestamp="1602553904221">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="303" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1602474424219" />
-    <state width="1877" height="303" key="GridCell.Tab.0.right" timestamp="1602474424219">
+    <state width="1877" height="283" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1602553904221" />
+    <state width="1877" height="283" key="GridCell.Tab.0.right" timestamp="1602553904221">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="303" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1602474424219" />
+    <state width="1877" height="283" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1602553904221" />
     <state width="1877" height="351" key="GridCell.Tab.1.bottom" timestamp="1602385544982">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -296,10 +302,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="487" height="528" key="XDebugger.FullValuePopup/0.0.1920.1050@0.0.1920.1050" timestamp="1602385239702" />
-    <state x="351" y="127" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1602417678516">
+    <state x="351" y="127" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1602493273519">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="351" y="127" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1602417678516" />
+    <state x="351" y="127" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1602493273519" />
     <state x="1084" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601698889936">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
