@@ -188,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602490037544</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="IMG embedded in html">
+      <created>1602554058082</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1602554058082</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -215,7 +222,8 @@
     <MESSAGE value="client" />
     <MESSAGE value="multi thread" />
     <MESSAGE value="done" />
-    <option name="LAST_COMMIT_MESSAGE" value="done" />
+    <MESSAGE value="IMG embedded in html" />
+    <option name="LAST_COMMIT_MESSAGE" value="IMG embedded in html" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="166" key="#Plugins" timestamp="1601992218746">
@@ -254,22 +262,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1030" y="222" key="Github.UntrackedFilesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1601698831557" />
-    <state width="1877" height="283" key="GridCell.Tab.0.bottom" timestamp="1602553904221">
+    <state width="1877" height="283" key="GridCell.Tab.0.bottom" timestamp="1602569393417">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="283" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1602553904221" />
-    <state width="1877" height="283" key="GridCell.Tab.0.center" timestamp="1602553904221">
+    <state width="1877" height="283" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1602569393417" />
+    <state width="1877" height="283" key="GridCell.Tab.0.center" timestamp="1602569393417">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="283" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1602553904221" />
-    <state width="1877" height="283" key="GridCell.Tab.0.left" timestamp="1602553904221">
+    <state width="1877" height="283" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1602569393417" />
+    <state width="1877" height="283" key="GridCell.Tab.0.left" timestamp="1602569393417">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="283" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1602553904221" />
-    <state width="1877" height="283" key="GridCell.Tab.0.right" timestamp="1602553904221">
+    <state width="1877" height="283" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1602569393417" />
+    <state width="1877" height="283" key="GridCell.Tab.0.right" timestamp="1602569393417">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="283" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1602553904221" />
+    <state width="1877" height="283" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1602569393417" />
     <state width="1877" height="351" key="GridCell.Tab.1.bottom" timestamp="1602385544982">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -294,10 +302,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="163" y="199" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1601992280126" />
-    <state x="872" y="257" key="Vcs.Push.Dialog.v2" timestamp="1601698673627">
+    <state x="872" y="257" key="Vcs.Push.Dialog.v2" timestamp="1602554082816">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="872" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1601698673627" />
+    <state x="872" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1602554082816" />
     <state width="487" height="528" key="XDebugger.FullValuePopup" timestamp="1602385239702">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -314,9 +322,9 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="139" y="234" key="new project wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1601695201607" />
-    <state x="943" y="233" width="672" height="678" key="search.everywhere.popup" timestamp="1601698770917">
+    <state x="943" y="233" width="672" height="678" key="search.everywhere.popup" timestamp="1602561553355">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="943" y="233" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1601698770917" />
+    <state x="943" y="233" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1602561553355" />
   </component>
 </project>
