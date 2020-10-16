@@ -67,7 +67,7 @@ public class Handler implements Runnable {
     @Override
     public void run() {
         try {
-            processResponse();
+            processRequests();
 
 //            System.out.println("header: \n" + header.toString()); //输出头部
 //            System.out.println("body: \n" + body.toString()); //输出消息体
@@ -308,7 +308,7 @@ public class Handler implements Runnable {
      *
      * @throws IOException 各种错误
      */
-    private void processResponse() throws IOException {
+    private void processRequests() throws IOException {
         int last = 0, c;
         boolean inHeader = true; // loop control
         while (inHeader && ((c = IStream.read()) != -1)) {
