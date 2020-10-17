@@ -11,7 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="356c46f8-c689-48db-a68e-2492bcd493d6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/program2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/program2.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +210,21 @@
       <option name="project" value="LOCAL" />
       <updated>1602573251346</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="change name">
+      <created>1602811054401</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1602811054401</updated>
+    </task>
+    <task id="LOCAL-00016" summary="update ignore">
+      <created>1602903002489</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1602903002489</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -230,14 +246,15 @@
     <MESSAGE value="git ignore" />
     <MESSAGE value="ignore" />
     <MESSAGE value="update" />
-    <MESSAGE value="update ignore" />
     <MESSAGE value="update workspace.xml" />
     <MESSAGE value="client" />
     <MESSAGE value="multi thread" />
     <MESSAGE value="done" />
     <MESSAGE value="IMG embedded in html" />
     <MESSAGE value="refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor" />
+    <MESSAGE value="change name" />
+    <MESSAGE value="update ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="update ignore" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="166" key="#Plugins" timestamp="1601992218746">
@@ -248,10 +265,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="414" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1602382935994" />
-    <state x="716" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602389301229">
+    <state x="716" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602819336514">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="716" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1602389301229" />
+    <state x="716" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1602819336514" />
     <state x="740" y="229" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1602385054872">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -276,22 +293,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1030" y="222" key="Github.UntrackedFilesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1601698831557" />
-    <state width="1877" height="351" key="GridCell.Tab.0.bottom" timestamp="1602574217188">
+    <state width="1877" height="296" key="GridCell.Tab.0.bottom" timestamp="1602829459352">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="351" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1602574217188" />
-    <state width="1877" height="351" key="GridCell.Tab.0.center" timestamp="1602574217188">
+    <state width="1877" height="296" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1602829459352" />
+    <state width="1877" height="296" key="GridCell.Tab.0.center" timestamp="1602829459352">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="351" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1602574217188" />
-    <state width="1877" height="351" key="GridCell.Tab.0.left" timestamp="1602574217188">
+    <state width="1877" height="296" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1602829459352" />
+    <state width="1877" height="296" key="GridCell.Tab.0.left" timestamp="1602829459352">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="351" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1602574217188" />
-    <state width="1877" height="351" key="GridCell.Tab.0.right" timestamp="1602574217188">
+    <state width="1877" height="296" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1602829459352" />
+    <state width="1877" height="296" key="GridCell.Tab.0.right" timestamp="1602829459352">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="351" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1602574217188" />
+    <state width="1877" height="296" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1602829459352" />
     <state width="1877" height="351" key="GridCell.Tab.1.bottom" timestamp="1602574217188">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -316,10 +333,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="163" y="199" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1601992280126" />
-    <state x="872" y="257" key="Vcs.Push.Dialog.v2" timestamp="1602554082816">
+    <state x="872" y="257" key="Vcs.Push.Dialog.v2" timestamp="1602811058829">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="872" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1602554082816" />
+    <state x="872" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1602811058829" />
     <state width="1698" height="528" key="XDebugger.FullValuePopup" timestamp="1602572998783">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -332,6 +349,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1084" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050@0.0.1920.1050" timestamp="1601698889936" />
+    <state x="183" y="26" width="824" height="1029" key="dock-window-1" timestamp="1602811707078">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="183" y="26" width="824" height="1029" key="dock-window-1/0.0.1920.1050@0.0.1920.1050" timestamp="1602811707078" />
     <state x="139" y="234" key="new project wizard" timestamp="1602809292677">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

@@ -1,4 +1,4 @@
 # Project exclude paths
 /out/
-/Exercise 2/
-!/Exercise 2/Exercise 2.doc
+!/Exercise 2/Exercise2.doc
+/Exercise2/
