@@ -21,6 +21,8 @@ public class Handler implements Runnable {
     private static final int buffer_size = 8192;
     private byte[] buffer;
 
+    private boolean forbidden = false;
+
     //http 请求
     private final StringBuffer header;
     private final StringBuffer body;
@@ -76,8 +78,19 @@ public class Handler implements Runnable {
             String command = st.nextToken();    //第一个分段为指令名
 
             boolean BAD = true;
+            if(forbidden){
+                BAD = false;
+                response = "HTTP/1.0 403 Forbidden" + CRLF;
+                response += "Server: MyHttpServer/1.0";
+                response += CRLF + CRLF;
+                buffer = response.getBytes();
+                OStream.write(buffer, 0, response.length());
+                OStream.flush();
+                //刷新buffer
+                buffer = new byte[buffer_size];
+            }
             //GET请求
-            if (command.equals("GET")) {
+            else if (command.equals("GET")) {
                 String filename = st.nextToken();   //第二个分段就是文件路径
                 String protocol = st.nextToken().trim();  //第三个分段是协议
 
@@ -309,6 +322,7 @@ public class Handler implements Runnable {
      * @throws IOException 各种错误
      */
     private void processRequests() throws IOException {
+        forbidden = false;
         int last = 0, c;
         boolean inHeader = true; // loop control
         while (inHeader && ((c = IStream.read()) != -1)) {
@@ -334,6 +348,12 @@ public class Handler implements Runnable {
             int start = header.toString().indexOf("Content-Length:");
             int end = header.toString().indexOf("\n", start);
             int len = Integer.parseInt(header.toString().substring(start + 15, end).trim());
+
+            //简单做一个 Forbidden
+            if (len > 8 * 1024 * 1024) {
+                forbidden = true;
+            }
+
             //向上取整
             int times = (len + buffer_size - 1) / buffer_size;
 
